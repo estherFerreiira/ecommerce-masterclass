@@ -1,0 +1,26 @@
+{
+  "name": "mercadopago",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./src/server.js localhost 4000"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "body-parse": "^0.1.0",
+    "cors": "^2.8.5",
+    "cpf-cnpj-validator": "^1.0.3",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "libphonenumber-js": "^1.10.8",
+    "mercadopago": "^1.5.13",
+    "mongoose": "^6.4.2",
+    "nodemon": "^2.0.18",
+    "sucrase": "^3.23.0",
+    "uuid": "^8.3.2",
+    "yup": "^0.32.11"
+  }
+}
